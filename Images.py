@@ -70,5 +70,5 @@ def decrypt(file, key):
     img.save(file + "_fresh.png")
 
 key = "anyone who is not shocked by quantum theory has not understood it"
-#encrypt("test.jpg", key)
+encrypt("test.jpg", key)
 decrypt("test.jpg_out.png", key)
